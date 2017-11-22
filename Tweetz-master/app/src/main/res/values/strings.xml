@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tweetz</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="search">search</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="transition_search_back" translatable="false">transition_search_back</string>
+    <string name="no_results">No Results</string>
+</resources>

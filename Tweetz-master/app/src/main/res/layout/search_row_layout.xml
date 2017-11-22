@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="searchItem" type="com.rahulrv.tweetz.model.search.StatusesItem"/>
+    </data>
+    <android.support.v7.widget.CardView
+        android:id="@+id/search_item_row"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="4dp"
+        android:elevation="@dimen/z_card"
+        app:cardBackgroundColor="@color/light_grey">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:profile="@{searchItem.user().profileImageUrl()}"/>
+            <TextView
+                android:id="@+id/search_txt"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/profile_image"
+                android:autoLink="web"
+                android:gravity="start|center_vertical"
+                android:maxLines="3"
+                android:text="@{searchItem.text()}"
+                android:textColor="@color/background_dark"
+                tools:text="Warriors"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</layout>

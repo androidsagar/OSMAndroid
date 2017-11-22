@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sagar.mapsample">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="MAPBOX_MAPID"
+            android:value="mapbox.streets-satellite"/>
+        <meta-data
+            android:name="MAPBOX_ACCESS_TOKEN"
+            android:value="pk.eyJ1IjoibWtlciIsImEiOiJjaWh0bGtyZDIwMDM4dzFrcDlmOTFlbm8zIn0.gHt6BSiGpb19TqUEjD8bxw"/>
+
+        <meta-data
+            android:name="GRAPHHOPPER_API_KEY"
+            android:value="AMFmC5P8s958tcjfFRJmefNboJ5H0HN6PLFyvdm3"/>
+        <meta-data
+            android:name="FLICKR_API_KEY"
+            android:value="c39be46304a6c6efda8bc066c185cd7e"/>
+        <meta-data
+            android:name="GEONAMES_ACCOUNT"
+            android:value="mkergall"/>
+        <meta-data
+            android:name="MAPZEN_APIKEY"
+            android:value="mapzen-rAhqqRJ"/>
+        <activity android:name=".MapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
