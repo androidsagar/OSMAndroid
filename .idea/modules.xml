@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MapSample.iml" filepath="$PROJECT_DIR$/MapSample.iml" />
+      <module fileurl="file://C:\Users\user\Desktop\OSMAndroid\MapSample.iml" filepath="C:\Users\user\Desktop\OSMAndroid\MapSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OSMAndroid.iml" filepath="$PROJECT_DIR$/OSMAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/OSMBonusPack/OSMBonusPack.iml" filepath="$PROJECT_DIR$/OSMBonusPack/OSMBonusPack.iml" />
+      <module fileurl="file://C:\Users\user\Desktop\OSMAndroid\OSMBonusPack\OSMBonusPack.iml" filepath="C:\Users\user\Desktop\OSMAndroid\OSMBonusPack\OSMBonusPack.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\user\Desktop\OSMAndroid\app\app.iml" filepath="C:\Users\user\Desktop\OSMAndroid\app\app.iml" />
     </modules>
   </component>
 </project>
